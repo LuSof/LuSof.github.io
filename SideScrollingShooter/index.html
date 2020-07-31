@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>SideScrollerShooter</title>
+    <style>
+      body {
+        /* height: 100vw;
+        overflow: hidden; */
+
+        padding: 0;
+        margin: 0;
+
+        /* background: url("assets/sprites/background.png") no-repeat center center;
+        background-size: cover; */
+      }
+      canvas {
+        width: 100%;
+
+        padding: 0;
+        margin: 0;
+      }
+      @font-face {
+        font-family: "CurseCasual";
+        src: url("assets/fonts/CurseCasual.ttf");
+      }
+      .fontPreload {
+        font-family: "CurseCasual";
+        position: absolute;
+        left: -100px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="fontPreload">.</div>
+    <script src="assets/scripts/libs/phaser.js"></script>
+    <script src="assets/scripts/classes/LoadingBar.js"></script>
+    <script src="assets/scripts/prefabs/Boom.js"></script>
+    <script src="assets/scripts/prefabs/MovableObject.js"></script>
+    <script src="assets/scripts/prefabs/Fire.js"></script>
+    <script src="assets/scripts/prefabs/Fires.js"></script>
+    <script src="assets/scripts/prefabs/Enemies.js"></script>
+    <script src="assets/scripts/prefabs/Enemy.js"></script>
+    <script src="assets/scripts/prefabs/Player.js"></script>
+    <script src="assets/scripts/scenes/BootScene.js"></script>
+    <script src="assets/scripts/scenes/PreloadScene.js"></script>
+    <script src="assets/scripts/scenes/GameScene.js"></script>
+    <script src="assets/scripts/scenes/StartScene.js"></script>
+    <script src="assets/scripts/main.js"></script>
+  </body>
+</html>
